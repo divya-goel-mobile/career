@@ -1,0 +1,45 @@
+.aboutUs .topImage {
+  width: auto;
+}
+.aboutUs .mainContainer {
+  position: relative;
+}
+.aboutUs .topContainer {
+  background-color: white;
+  width: 400px;
+  height: 150px;
+  position: absolute;
+  left: 30px;
+  bottom: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.aboutUs .aboutCompany {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 1px;
+}
+.aboutUs .ourCompany {
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 1px;
+}
+.aboutUs .inAsia {
+  font-size: 20px;
+  margin-top: 1px;
+}
+.aboutUs .detailContainer {
+  margin: 40px;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutUs .topImage {
+    width: 60vh;
+  }
+}

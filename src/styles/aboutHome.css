@@ -1,0 +1,25 @@
+.career .mainContainer {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
+.career .linkContainer {
+  margin-left: 120px;
+  display: flex;
+  flex-direction: column;
+}
+.career .link {
+  margin-top: 30px;
+  display: flex;
+  font-size: 25px;
+  color: darkgray;
+}
+
+@media only screen and (max-width: 600px) {
+  .career .linkContainer {
+    margin-left: 20px;
+  }
+}

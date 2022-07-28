@@ -1,0 +1,85 @@
+.ourValues .mainContainer {
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.ourValues .innerContainer {
+  display: flex;
+  overflow-y: auto;
+  flex-direction: row;
+}
+.ourValues .title {
+  font-size: 50px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.ourValues .desc {
+  font-size: 20px;
+}
+
+.ourValues .cardMainContainer {
+  display: flex;
+  align-items: left;
+  text-align: left;
+  margin-right: 30px;
+  width: 266px;
+  height: 313px;
+  position: relative;
+}
+
+.ourValues .cardInnerContainer {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  flex-direction: column;
+  display: flex;
+}
+
+.ourValues .cardImage {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+.ourValues .cardTextContainer {
+  text-align: left;
+  justify-content: center;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+.ourValues .cardName {
+  margin-left: 22px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.ourValues .cardDesc {
+  margin-left: 22px;
+  font-size: 18px;
+}
+.ourValues .dotContainer {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 30px;
+  bottom: 5px;
+  border-radius: 15px;
+}
+.ourValues .arrow {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .ourValues .innerContainer {
+    flex-direction: column;
+  }
+  .ourValues .cardMainContainer {
+    margin-top: 20px;
+  }
+}

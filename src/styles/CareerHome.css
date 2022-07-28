@@ -1,0 +1,24 @@
+.about .mainContainer {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.about .linkContainer {
+  margin-left: 120px;
+  display: flex;
+  flex-direction: column;
+}
+.about .link {
+  margin-top: 30px;
+  display: flex;
+  font-size: 25px;
+  color: darkgray;
+}
+
+@media only screen and (max-width: 600px) {
+  .about .linkContainer {
+    margin-left: 20px;
+  }
+}
