@@ -50,25 +50,12 @@ const Card = ({ data }) => {
         onClick={() => {
           navigate(`/career/values/detail/${data.id}`);
         }}
-        style={{
-          backgroundColor: "red",
-          width: 30,
-          height: 30,
-          position: "absolute",
-          right: 30,
-          bottom: 5,
-          borderRadius: 15,
-          border: "2px solid red",
-          justifyContent: "center",
-          display: "flex",
-          alignItems: "center",
-        }}
+       className="dotContainer"
       >
         <span
           style={{
             color: "white",
             fontSize: 20,
-            marginLeft: 10,
           }}
         >
           {">"}

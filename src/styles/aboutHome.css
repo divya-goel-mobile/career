@@ -1,4 +1,4 @@
-.career .mainContainer {
+.about .mainContainer {
   margin: 10px;
   display: flex;
   flex-direction: row;
@@ -6,12 +6,12 @@
   align-items: center;
   padding: 150px;
 }
-.career .linkContainer {
+.about .linkContainer {
   margin-left: 120px;
   display: flex;
   flex-direction: column;
 }
-.career .link {
+.about .link {
   margin-top: 30px;
   display: flex;
   font-size: 25px;
@@ -19,7 +19,11 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .career .linkContainer {
-    margin-left: 20px;
+  .about .mainContainer {
+    flex-direction: column;
+  }
+  .about .linkContainer {
+    margin-left: 10px;
+    width: 200px;
   }
 }

@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import waitList from "../assets/waitList.jpg";
-import "../styles/joinWaitList.css";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import waitList from '../assets/waitList.jpg'
+import '../styles/joinWaitList.css'
 
 export default function JoinWaitList() {
   return (
@@ -13,10 +13,12 @@ export default function JoinWaitList() {
           <p className="joinList">Join the waitlist to stay updated</p>
           <div>
             <p className="excited">Enter Email</p>
+            <input />
             <p className="excited">Enter Mobile Number</p>
+            <input />
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }

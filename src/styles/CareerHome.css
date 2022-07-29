@@ -1,24 +1,32 @@
-.about .mainContainer {
+.career .mainContainer {
   margin: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.about .linkContainer {
+.career .linkContainer {
   margin-left: 120px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
-.about .link {
+.career .link {
   margin-top: 30px;
   display: flex;
-  font-size: 25px;
+  font-size: 23px;
   color: darkgray;
 }
 
+.career {
+  font-family: 'Open Sans', sans-serif;
+}
+
 @media only screen and (max-width: 600px) {
-  .about .linkContainer {
+  .career .mainContainer {
+    flex-direction: column;
+  }
+  .career .linkContainer {
     margin-left: 20px;
   }
 }

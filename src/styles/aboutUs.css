@@ -9,8 +9,8 @@
   width: 400px;
   height: 150px;
   position: absolute;
-  left: 30px;
-  bottom: 10px;
+  left: 60px;
+  bottom: -200px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   justify-content: center;
@@ -19,7 +19,7 @@
   padding: 20px;
 }
 .aboutUs .aboutCompany {
-  color: red;
+  color: #ed1b2e;
   font-size: 18px;
   font-weight: bold;
   margin-top: 1px;
@@ -41,5 +41,10 @@
 @media only screen and (max-width: 600px) {
   .aboutUs .topImage {
     width: 60vh;
+  }
+  .aboutUs .topContainer {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
   }
 }

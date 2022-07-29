@@ -6,12 +6,12 @@ export default function AboutUs() {
     <div className="aboutUs">
       <div className="mainContainer">
         <img src={topImage} className="topImage" />
-        <div className="topContainer">
+      </div>
+      <div className="topContainer">
           <p className="aboutCompany">ABOUT US</p>
           <p className="ourCompany">Our company</p>
           <p className="inAsia">Prudential in Asia & Africa</p>
         </div>
-      </div>
       <div className="detailContainer">
         <p>
           We help people get the most out of life. We make healthcare affordable
